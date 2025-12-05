@@ -58,7 +58,7 @@ namespace TorneoManager.Dominio
         List<FairPlayEntry> ObtenerFairPlay(int idTorneo);
     }
 
-    // Nuevas extensiones (stubs para futuros usos)
+    
     public interface IArbitroRepositorio
     {
         List<Arbitro> Listar();

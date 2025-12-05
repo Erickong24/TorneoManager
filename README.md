@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # # Documentacion TorneoManager
+=======
+# Documentacion TorneoManager
+>>>>>>> 5e191df76dab4fade3565dacc3f5c101675a3d72
 
 Sistema de gestion de ligas y torneos de futbol amateur construido con Windows Forms (.NET 9) y Oracle (PL/SQL).
 
@@ -27,7 +31,10 @@ Scripts en `database/` pensados para ejecutarse en orden:
 6. `06_seed.sql`: datos de demostracion no idempotentes (dos torneos, equipos, jugadores, partidos jugados, goles, tarjetas, sanciones). Ejecuta `PKG_TORNEO` para recalcular posiciones.
 7. `07_feature_extensions.sql`: extensiones (categoria/division y ascensos/descensos, sedes/bloqueos, arbitros y designaciones, reprogramaciones, estadisticas enriquecidas, apelaciones). Agrega vistas de arbitrajes y eventos.
 8. `08_seed_safe.sql`: carga de ejemplo idempotente (torneo demo, equipos Alpha/Beta, sede, arbitro, partido con goles/tarjeta, reprogramacion, eventos, racha, sancion y apelacion).
+<<<<<<< HEAD
 9. `09_fill_jugadores_faltantes.sql`: rellena cada equipo con jugadores ficticios hasta 15 cupos (11 titulares + 4 suplentes) manteniendo dorsales consecutivos; seguro si ya tienes 15 o más.
+=======
+>>>>>>> 5e191df76dab4fade3565dacc3f5c101675a3d72
 
 ### Tablas clave (resumen)
 - TORNEO: reglas de puntos y suspensiones, categoria/division, estado.
